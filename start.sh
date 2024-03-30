@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define commands
-command1="cd bungee && sudo java -jar bungee.jar"
-command2="cd server && sudo java -jar server.jar"
+command1="cd bungee && java -jar bungee.jar"
+command2="cd server && java -jar server.jar"
 
 # Run commands concurrently
 bash -c "$command1" &
