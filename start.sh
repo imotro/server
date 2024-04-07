@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install default-jdk
+apt install default-jdk
 # Define commands
 command1="cd bungee && java -jar bungee.jar"
 command2="cd server && java -jar server.jar"
